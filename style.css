@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://wallpapers.com/images/hd/library-background-zp3y3gk7am2pnsar.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 8px;
+    color: #efeff3;
+    margin-top: 60px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    font-size: 2.5em;
+    box-sizing: 20;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 70%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #441e1e;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #b97777;
+}
+
+tbody tr:hover {
+    background-color: #dddddd;
+}
